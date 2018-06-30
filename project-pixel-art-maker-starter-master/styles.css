@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+	background:#6299cd;
+	
+}
+
+@font-face{
+	font-family: Monoton;
+	src:url(Monoton-Regular.ttf);
+
+}
+
+#wrapper{
+	/*width: 1000px; */
+	margin: 10px auto; 
+	background: #fff; 
+	border-radius: 5px; 
+	box-shadow:0px 2px 3px rgba(0,0,0,0.2); 
+	padding: 1px 5px;
+	}
+	
+
+
+h1 {
+	color: darkred;
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2, p {
+	color : darkred;
+	font-family:Century Schoolbook;
+    margin: 1em 0 0.25em;
+	font-weight : bold;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid darkred;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+input[type=submit]
+{
+	font-weight:bold;
+	background-color:#6299cd;
+	color:darkred;
+	width :6em;
+}
+#sizePicker>strong{
+	color: darkred;
+}
+
+
